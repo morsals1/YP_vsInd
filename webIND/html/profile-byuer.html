@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <form id="form" method="POST" action="../php/proflie.php">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="main_byuer.html">
+                        <p>
+                            АВТОМИР 
+                        </p>
+                    </a>
+                </div>
+
+                <div class="profile">   
+                    <a href="profile-byuer.html">
+                        <p>Профиль</p>
+                    </a>                 
+                </div>                
+            </div>
+
+            <div class="catalog">
+                <div class="profile-header">
+                    <div class="profile-info">
+                        <h1 id="profile-name"></h1>
+                        <p id="profile-registration"></p>
+                    </div>
+                </div>
+
+                <div class="profile-details">
+                    <div class="detail-row">
+                        <span>Имя</span>
+                        <span id="profile-firstname"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Дата рождения</span>
+                        <span id="profile-date"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Фамилия</span>
+                        <span id="profile-surname"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Логин</span>
+                        <span id="profile-login"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span>Электронная почта</span>
+                        <span id="profile-email"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="../js/profile.js"></script>
+</body>
+</html>

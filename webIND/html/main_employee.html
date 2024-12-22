@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="main_employee.html">
+                    <p>
+                        АВТОМИР
+                    </p>
+                </a>
+            </div>
+
+            <div class="profile">
+                <a href="profile.html">
+                    <p style="margin: 0px;">Профиль</p>
+                </a>
+            </div>
+
+            <div class="my-products">
+                <a href="my-products.html">
+                    <p style="margin: 0px;">Редактировать</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="products-container">
+            <h1>Товары</h1>
+            <div class="product-grid">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        fetch('products.php?page=main')
+          .then(response => response.json())
+          .then(data => console.log(data));
+      </script>
+      
+</body>
+</html>

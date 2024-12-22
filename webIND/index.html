@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Авторизация</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/auth.js"></script>
+</head>
+
+<body>
+    <div class="form">
+        <form id="form" action="php/auth.php" method="POST">
+            <h1>Авторизация</h1>
+            <label for="login">Логин:</label><br>
+            <input type="text" id="login" name="login" required><br>
+            <label for="password">Пароль:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Войти</button>
+            <a href="html/registr.html">Регистрация</a>
+        </form>
+    </div>
+</body>
+
+</html>

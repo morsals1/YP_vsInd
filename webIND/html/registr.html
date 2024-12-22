@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Регистрация</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/registr.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/registr.js"></script>
+</head>
+
+<body>
+    <div class="form" >
+        <form id="form" action="../php/register.php" method="POST">
+            <h1>Регистрация</h1>
+
+            <div class="choise">
+                <input id="byuer" type="radio" name="is_employee" value="0" checked>
+                <label for="byuer">Покупатель</label>
+            </div>
+             
+            <div class="choise">
+                <input id="employee" type="radio" name="is_employee" value="1">
+                <label for="employee">Продавец</label>
+            </div>
+
+            <p for="surname">Фамилия:</p>
+            <input type="text" id="surname" name="surname" required>
+            <p for="name">Имя:</p>
+            <input type="text" id="name" name="name" required>
+            <p for="date">Дата рождения:</p>
+            <input type="date" id="date" name="date" required>
+            <p for="login">Логин:</p>
+            <input type="text" id="login" name="login" required>
+            <p for="email">Email:</p>
+            <input type="email" id="email" name="email" required>
+            <p for="password">Пароль:</p>
+            <input type="password" id="password" name="password" required>
+            <button type="submit"><b>Зарегистрироваться</b></button>
+            <p>
+                Есть аккаунт? 
+                <a href="../index.html">Войти</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

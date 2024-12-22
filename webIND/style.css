@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.3s ease;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+    background-color: #F8F8F8;
+    color: #333;
+}
+
+form {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+p, label {
+    text-align: left;
+    color: #555;
+    font-size: 14px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+input:focus, input:hover {
+    outline: none;
+    background-color: #FFFFFF;
+    border-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #555;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Общие стили для теней */
+.shadowed {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shadowed:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}

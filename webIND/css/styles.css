@@ -1,0 +1,189 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.profile-actions .btn,
+.delete-profile .delete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-actions .btn:hover,
+.delete-profile .delete-btn:hover {
+    background-color: #45a049;
+}
+
+/* Стили для "Мои товары" */
+.my-products-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.product-info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.add-product {
+    margin-top: 20px;
+}
+
+.add-product .btn {
+    background-color: #2196F3;
+}
+
+.add-product .btn:hover {
+    background-color: #1976D2;
+}
+
+/* Minimalist black-and-white palette */
+body {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Buttons and forms */
+button, input[type="submit"], .form, .box {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover, input[type="submit"]:hover, .form:hover, .box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+/* General shadowed elements */
+.shadowed {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.shadowed:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* Animation for smoothness */
+*, *::before, *::after {
+    transition: all 0.3s ease;
+}
+    
